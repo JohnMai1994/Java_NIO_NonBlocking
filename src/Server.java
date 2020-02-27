@@ -45,7 +45,7 @@ public class Server {
                     socketChannel.configureBlocking(false);
                     SelectionKey key1 = socketChannel.register(selector, SelectionKey.OP_READ);
                     InetSocketAddress remoteAddress = (InetSocketAddress)socketChannel.getRemoteAddress();
-                    File file = new File(remoteAddress.getHostName() + "_" + remoteAddress.getPort() + ".txt");
+                    File file = new File(remoteAddress.getHostName() + "_" + remoteAddress.getPort() + ".txt");  // 新建文件名!!!!!!!!!!
                     FileChannel fileChannel = new FileOutputStream(file).getChannel();
                     fileMap.put(key1, fileChannel);
                     System.out.println(socketChannel.getRemoteAddress() + "连接成功...");

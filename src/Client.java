@@ -13,10 +13,11 @@ public class Client {
                 // 创建SocketChannel
                 // 绑定IP地址 & 端口号
                 SocketChannel socketChannel = SocketChannel.open();
-                socketChannel.socket().connect(new InetSocketAddress("127.0.0.1", 8888));
+
+                socketChannel.socket().connect(new InetSocketAddress("127.0.0.1", 8888));  // IP地址，端口号!!!!!!!!!!!!!!!
                 // 创建FileChannel
                 // 绑定文件位置
-                File file = new File("F:\\test.txt");
+                File file = new File("F:\\test.txt");	// 文件路径!!!!!!!!!!!!!!!
                 FileChannel fileChannel = new FileInputStream(file).getChannel();
 
                 ByteBuffer buffer = ByteBuffer.allocate(100);
