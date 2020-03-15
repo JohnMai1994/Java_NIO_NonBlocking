@@ -1,13 +1,7 @@
-# Java_NIO_NonBlocking
-这是javaNIO，客户端，服务端文件传输代码
+# LeetCode
 
-客户端：
-File 的路径，以及File 名字
-IP地址，端口号
+ 找工作前，手撕LeetCode，Java为主
 
-服务端：
-端口号
-新建文件名字
+[![Read Status](https://img.shields.io/badge/%E9%98%85%E8%AF%BB-read-green)](https://github.com/JohnMai1994/LeetCode)
 
-以上需要根据自身需求自己修改！
-用！！！特殊标记
+[![Java Interview](https://img.shields.io/badge/pdf-Java%E9%9D%A2%E8%AF%95-green)]

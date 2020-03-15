@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1a8d87f-0708-403a-b582-50770de7a1fc" name="Default Changelist" comment="" />
+    <list default="true" id="f1a8d87f-0708-403a-b582-50770de7a1fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Java/IO/Practise/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/remoteTransFile/John/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/remoteTransFile/John/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/remoteTransFile/John/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/remoteTransFile/Other/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/remoteTransFile/Other/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Java/IO/NIO/Socket/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Java/IO/NIO/Socket/Server.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +24,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YJJgeC4dOeHgBvhIUmB1EmLk9q" />
   <component name="ProjectViewState">
@@ -20,9 +38,25 @@
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java Programming/Java-Code/Java-Basic/Section13Lambda" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\SmallProject\Java\Java_NIO_NonBlocking" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Music">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="John.Client" />
+      <module name="remoteTransFile" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Java.IO.NIO.Socket.Client" />
       <module name="remoteTransFile" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -41,8 +75,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Music" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Java.IO.Practise.Music" />
+      <module name="remoteTransFile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Java.IO.Practise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="John.Server" />
+      <module name="remoteTransFile" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Java.IO.NIO.Socket.Server" />
       <module name="remoteTransFile" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -61,27 +115,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="John.Test" />
-      <module name="remoteTransFile" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Music" />
       <item itemvalue="Application.Server" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Server (1)" />
-      <item itemvalue="Application.Client (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Server (1)" />
+        <item itemvalue="Application.Music" />
         <item itemvalue="Application.Server" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -115,22 +158,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="228" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582701415613" />
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1582770701182">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1583340501921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582770701182" />
-    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1582770701182">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583340501921" />
+    <state width="914" height="286" key="GridCell.Tab.0.bottom" timestamp="1583198710087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582770701182" />
-    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1582770701182">
+    <state width="914" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583198710087" />
+    <state width="914" height="286" key="GridCell.Tab.0.center" timestamp="1583198710087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582770701182" />
-    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1582770701182">
+    <state width="914" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583198710087" />
+    <state width="914" height="286" key="GridCell.Tab.0.left" timestamp="1583198710087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582770701182" />
+    <state width="914" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583198710087" />
+    <state width="914" height="286" key="GridCell.Tab.0.right" timestamp="1583198710087">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583198710087" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1582669712370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
