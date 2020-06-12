@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1a8d87f-0708-403a-b582-50770de7a1fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Java/IO/Practise/Music.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/remoteTransFile/John/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/remoteTransFile/John/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/remoteTransFile/John/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/remoteTransFile/Other/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/remoteTransFile/Other/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Java/IO/NIO/Socket/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Java/IO/NIO/Socket/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +28,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java Programming/Java-Code/Java-Basic/Section13Lambda" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java Programming/Java-Code/Java-Basic/Section12Collections" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -158,10 +149,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="228" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582701415613" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1583340501921">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="987" y="369" key="FileChooserDialogImpl" timestamp="1585493004734">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583340501921" />
+    <state x="987" y="369" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1585493004734" />
     <state width="914" height="286" key="GridCell.Tab.0.bottom" timestamp="1583198710087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -194,6 +186,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582669712370" />
+    <state x="127" y="274" key="SettingsEditor" timestamp="1585493101758">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="127" y="274" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1585493101758" />
+    <state x="29" y="319" key="new project wizard" timestamp="1585492163499">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="29" y="319" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1585492163499" />
     <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1582772994183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
